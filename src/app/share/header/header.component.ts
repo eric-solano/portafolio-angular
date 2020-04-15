@@ -20,7 +20,7 @@ export class HeaderComponent implements OnInit {
     }
 
     this.router.navigate(['/search',termino]);
-    console.log("Termino buscado: " + termino);
+    //console.log("Termino buscado: " + termino);
   }
 
 }

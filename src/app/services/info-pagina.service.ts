@@ -12,7 +12,7 @@ export class InfoPaginaService {
   equipo: any[] = [];
 
   constructor(private http: HttpClient) { 
-    console.log("Servicio de infoPagina listo!!!");  
+    //console.log("Servicio de infoPagina listo!!!");  
     
     //Ler el archivo JSON
     //private http: HttpClient -> con este servicio podemos realizar peticiones a servidores rest, externos y cualquier lado
